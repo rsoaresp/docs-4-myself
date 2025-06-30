@@ -21,7 +21,7 @@ An IPv4 address is a numerical label consisting of 32 bits arranged into blocks 
 
 > 172 (10101100) . 16 (00010000) . 254 (11111110) . 1 (00000001)
 
-What is the number of addresses available on IPv4? We can count this by considering that the permutations are given by $`(2^8) \times (2^8) \times (2^8) \times (2^8) = 2^{32}`$ ~ 4.3 billion addresses[^2]
+What is the number of addresses available on IPv4? We can count this by considering that the combinations are given by $`(2^8) \times (2^8) \times (2^8) \times (2^8) = 2^{32}`$ ~ 4.3 billion addresses[^2]
 
 [^2]:  This seems like a big number but we exhausted the addresses 
 available on IPv4 quite fast, which was the cause of the IPV6 implementation.
@@ -29,7 +29,7 @@ available on IPv4 quite fast, which was the cause of the IPV6 implementation.
 
 ## Subnetworks
 
-$`2^{32}`$ addresses is a large ammount of addresses and most of the time 
+$`2^{32}`$ addresses is a large amount of addresses and most of the time 
 we need the concept of a subnetwork (or subnet), which is a logical 
 subdivision of an IP network. The practice of dividing a network into two 
 or more networks is called subnetting. 
